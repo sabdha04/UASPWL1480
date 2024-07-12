@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.menu {
+    margin: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    padding: 5px 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+}
+
+.menu ul li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
